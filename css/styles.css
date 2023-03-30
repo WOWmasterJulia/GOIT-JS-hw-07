@@ -42,3 +42,12 @@
 .gallery__link:hover {
   cursor: zoom-in;
 }
+/* ul{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+}
+li{
+  width: 300px;
+} */
