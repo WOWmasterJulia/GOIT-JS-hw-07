@@ -25,9 +25,6 @@ container.insertAdjacentHTML('beforeend', markup.join(''));
 let gallery = new SimpleLightbox('.gallery a', {
     captionsData: 'alt',
     captionDelay: 250,
-
-    // animationSlide:	true,
-    // throttleInterval: 1000,
     
 });
 console.log(gallery);

@@ -64,6 +64,6 @@ function onClick(evt) {
       console.dir(ev)
       if (ev.key === 'Escape') { instance.close() }
     });
-})
+}, {onse: true})
 }
  
