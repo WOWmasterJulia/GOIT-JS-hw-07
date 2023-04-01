@@ -23,16 +23,15 @@ const markup = galleryItems.map((elem) => `<li class="gallery__item">
 container.insertAdjacentHTML('beforeend', markup.join(''));
 
 let gallery = new SimpleLightbox('.gallery a', {
-    // captionSelector: 'img',
     captionsData: 'alt',
     captionDelay: 250,
 
-    animationSlide:	true,
-    throttleInterval: 1000,
+    // animationSlide:	true,
+    // throttleInterval: 1000,
     
 });
 console.log(gallery);
-gallery.close();
+// gallery.close();
 
   
   
