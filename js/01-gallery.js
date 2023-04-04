@@ -64,7 +64,7 @@ function onClick(evt) {
       console.dir(ev)
       if (ev.key === 'Escape') { instance.close() }
     });
-    слухач снімається:
+    // слухач снімається:
 }, {onse: true})
 }
  
